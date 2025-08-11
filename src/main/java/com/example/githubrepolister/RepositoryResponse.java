@@ -9,10 +9,10 @@ public class RepositoryResponse {
     private String ownerLogin;
     private List<BranchResponse> branches;
 
-    // Default constructor
+    
     public RepositoryResponse() {}
 
-    // Getters and Setters
+    
     public String getName() {
         return name;
     }
