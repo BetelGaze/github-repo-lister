@@ -28,10 +28,10 @@ public class GithubBranch {
     public static class Commit {
         private String sha;
 
-        // Default constructor
+        
         public Commit() {}
 
-        // Getters and Setters
+        
         public String getSha() {
             return sha;
         }
