@@ -52,7 +52,7 @@ public class GithubService {
         }
 
         return allRepos.stream()
-                .filter(repo -> !repo.isFork())  // This should work now
+                .filter(repo -> !repo.isFork())  
                 .map(repo -> {
                     List<BranchResponse> branches = getBranchesForRepo(repo.getOwner().getLogin(), repo.getName());
 
