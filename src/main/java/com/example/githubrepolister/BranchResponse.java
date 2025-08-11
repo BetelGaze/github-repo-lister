@@ -4,10 +4,10 @@ public class BranchResponse {
     private String name;
     private String lastCommitSha;
 
-    // Default constructor
+    
     public BranchResponse() {}
 
-    // Getters and Setters
+    
     public String getName() {
         return name;
     }
